@@ -2,9 +2,7 @@ International Law Jeopardy
 
 A simple Jeopardy-style quiz game built with React + Vite for the INTL-L250 course.
 
-Live Demo
 
-[](https://jeopardy-game-mu.vercel.app)
 
 Features
 Single Player & Multiplayer modes
