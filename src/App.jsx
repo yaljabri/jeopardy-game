@@ -198,14 +198,14 @@ export default function App() {
 
       {/* QUESTION */}
       {currentQuestion && (
-        <div style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-          textAlign: "center"
-        }}>
+  <div style={{
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100vh",
+    textAlign: "center"
+  }}>
           <h2>{currentQuestion.question}</h2>
 
           {!submitted && (
@@ -225,7 +225,8 @@ export default function App() {
 
           {submitted && (
             <>
-              <h3>Answer: {currentQuestion.answer}</h3>
+              <h3>Your Answer: {answerText}</h3>
+              <h3>Correct Answer: {currentQuestion.answer}</h3>
 
               {mode === "single" ? (
                 <button
