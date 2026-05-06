@@ -1,0 +1,18 @@
+/* RESET EVERYTHING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL SCREEN */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+/* REMOVE DEFAULT CENTERING FROM VITE */
+body {
+  display: block;
+  overflow-x: hidden;
+}
